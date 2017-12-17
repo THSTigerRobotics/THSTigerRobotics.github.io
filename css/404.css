@@ -1,0 +1,53 @@
+html {
+    background-color: #404040;
+    
+    font-family:  'Open Sans', sans-serif;
+    
+    color: #f0f0f0;
+    
+    
+}
+
+header{
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.links {
+    margin-bottom: -5px;
+    margin-right: 10%;
+    text-align: right;
+}
+
+article {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 4em;
+}
+
+article img {
+    margin-bottom: 2em;
+}
+
+.button {
+    margin-top: 1em;
+}
+
+a:link,
+a:visited,
+a:active {
+    background-color: #9CBC6C;
+    margin: auto;
+    padding: 8px;
+    border-radius: 4px;
+    
+    color: #f0f0f0;  
+    text-decoration: none;
+}
+
+a:hover {
+   background-color: #768e51;   
+}

@@ -1,11 +1,7 @@
 html {
     background-color: #404040;
-    
     font-family:  'Open Sans', sans-serif;
-    
     color: #f0f0f0;
-    
-    
 }
 
 header{
@@ -46,12 +42,6 @@ nav a:active {
     text-decoration: none;
 }
 
-img {
-    user-drag: none; 
-    -moz-user-select: none; 
-    -webkit-user-drag: none;
-}
-
 article {
     width: 75%;
     background-color: #707070;
@@ -76,4 +66,33 @@ footer {
 
 footer img {
     margin-left: 32px;
+}
+
+.day{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.line{
+    margin: -0.1em 0 0.25em 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.date{
+    background-color: #f33b4a;
+    display: inline-block;
+    margin: 0 2% 0 2%;
+    border-radius: 16px;
+    padding: 4px;
+    text-align: center;
+    width: 77px;
+    line-height: 1.5em;
+}
+
+.update {
+    text-indent: 2em;
+
+}
+.update ul {
+    text-indent: 0;
 }
